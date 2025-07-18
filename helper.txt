@@ -1,0 +1,10 @@
+echo "# shine" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rohihub/shine.git
+git push -u origin main
+
+git config --global user.email "bomblerohidas@gmail.com"
+git config --global user.name "Rohidas"
