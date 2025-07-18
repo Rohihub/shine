@@ -1,0 +1,35 @@
+#####  Data Types:
+
+#int  integer : 0~9999999999
+age=9
+print("age:",age)
+
+
+#float floating values : Fractional values 
+height=6.2
+age=49
+print("height:",height)
+
+
+#str
+name="devops "
+print("my name is",name)
+
+
+#bool
+#true or flase 
+a=False
+if a:
+  print("true value passed")
+else:
+    print("false value passed")
+
+
+#list
+fruits=["apple","mango","grapes","pineapple"]
+print("Fruits in the list:",fruits[3],fruits[2])
+
+
+#dictionary
+user={"name":"devopsteam","age":30,"date":"9/12/2022"}
+print("user det
