@@ -15,6 +15,13 @@ print("height:",height)
 name="devops "
 print("my name is",name)
 
+tttt
+hhh
+vsnk
+new 
+folder 
+game
+
 
 #bool
 #true or flase 
