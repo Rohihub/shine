@@ -1,0 +1,17 @@
+■ Creating a Sample Log File
+Use the `echo` command to simulate log entries and redirect them into a file:
+#!/bin/bash
+# Create a sample log file
+echo "INFO: System started" > sample.log
+echo "WARNING: Disk space low" >> sample.log
+echo "ERROR: Failed to load module" >> sample.log
+echo "INFO: Task completed" >> sample.log
+■ Searching Logs with grep
+Use `grep` to filter specific log levels from the file:
+# Show all ERROR lines
+grep "ERROR" sample.log
+# Show all WARNING lines
+grep "WARNING" sample.log
+# Count how many INFO lines
+grep -c "INFO" sample.log
+isy-inrk-dsq
